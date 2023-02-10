@@ -20,23 +20,23 @@
       <nav>
         <a class="logo-black" href="./index.html">Web<span>Studio</span></a>
         <ul>
-          <li><a class="navigation-click" href="./index.html">Studio</a></li>
+          <li><a class="nav-link" href="./index.html">Studio</a></li>
           <li>
-            <a class="navigation-click" href="./portfolio.html">Portfolio</a>
+            <a class="nav-link" href="./portfolio.html">Portfolio</a>
           </li>
-          <li><a class="navigation-click" href="#">Contacts</a></li>
+          <li><a class="nav-link" href="#">Contacts</a></li>
         </ul>
       </nav>
 
       <address>
         <ul>
           <li>
-            <a class="contact-adress" href="mailto:info@devstudio.com"
+            <a class="adress-link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
           <li>
-            <a class="contact-adress" href="tel:+110001111111"
+            <a class="adress-link" href="tel:+110001111111"
               >+11 (000) 111-11-11</a
             >
           </li>
@@ -46,19 +46,32 @@
 
     <main>
       <!-- Верхний блок с кнопками -->
+
+      <h1 style="display: none">Portfolio</h1>
+
       <section>
-        <h1 style="display: none">Portfolio</h1>
-        <button class="head-button" type="button">All</button>
-        <button class="head-button" type="button">Web Site</button>
-        <button class="head-button" type="button">App</button>
-        <button class="head-button" type="button">Design</button>
-        <button class="head-button" type="button">Marketing</button>
-      </section>
+        <ul class="head-flex">
+          <li>
+            <button class="head-button" type="button">All</button>
+          </li>
+          <li>
+            <button class="head-button" type="button">Web Site</button>
+          </li>
+          <li>
+            <button class="head-button" type="button">App</button>
+          </li>
+          <li>
+            <button class="head-button" type="button">Design</button>
+          </li>
+          <li>
+            <button class="head-button" type="button">Marketing</button>
+          </li>
+        </ul>
 
-      <!-- Блок с фотографиями -->
+        <!-- Блок с фотографиями -->
 
-      <section class="gallery">
-        <ul>
+        <h2 hidden>projects</h2>
+        <ul class="gallery">
           <li>
             <a href="#">
               <img
@@ -66,8 +79,8 @@
                 alt="Banking App"
                 width="360"
               />
-              <h2>Banking App Interface Concept</h2>
-              <p>App</p>
+              <h3 class="project-title">Banking App Interface Concept</h3>
+              <p class="project-text">App</p>
             </a>
           </li>
 
@@ -78,8 +91,8 @@
                 alt="Payment"
                 width="360"
               />
-              <h2>Cashless Payment</h2>
-              <p>Marketing</p>
+              <h3 class="project-title">Cashless Payment</h3>
+              <p class="project-text">Marketing</p>
             </a>
           </li>
 
@@ -90,8 +103,8 @@
                 alt="Meditation"
                 width="360"
               />
-              <h2>Meditation App</h2>
-              <p>App</p>
+              <h3 class="project-title">Meditation App</h3>
+              <p class="project-text">App</p>
             </a>
           </li>
 
@@ -102,8 +115,8 @@
                 alt="Service"
                 width="360"
               />
-              <h2>Taxi Service</h2>
-              <p>Marketing</p>
+              <h3 class="project-title">Taxi Service</h3>
+              <p class="project-text">Marketing</p>
             </a>
           </li>
 
@@ -114,8 +127,8 @@
                 alt="Screen"
                 width="360"
               />
-              <h2>Screen Illustrations</h2>
-              <p>Design</p>
+              <h3 class="project-title">Screen Illustrations</h3>
+              <p class="project-text">Design</p>
             </a>
           </li>
 
@@ -126,8 +139,8 @@
                 alt="Online Courses"
                 width="360"
               />
-              <h2>Online Courses</h2>
-              <p>Marketing</p>
+              <h3 class="project-title">Online Courses</h3>
+              <p class="project-text">Marketing</p>
             </a>
           </li>
 
@@ -138,8 +151,8 @@
                 alt="Stories Concept"
                 width="360"
               />
-              <h2>Instagram Stories Concept</h2>
-              <p>Design</p>
+              <h3 class="project-title">Instagram Stories Concept</h3>
+              <p class="project-text">Design</p>
             </a>
           </li>
 
@@ -150,8 +163,8 @@
                 alt="Organic Food"
                 width="360"
               />
-              <h2>Organic Food</h2>
-              <p>Web Site</p>
+              <h3 class="project-title">Organic Food</h3>
+              <p class="project-text">Web Site</p>
             </a>
           </li>
 
@@ -162,8 +175,8 @@
                 alt="Coffee"
                 width="360"
               />
-              <h2>Fresh Coffee</h2>
-              <p>Web Site</p>
+              <h3 class="project-title">Fresh Coffee</h3>
+              <p class="project-text">Web Site</p>
             </a>
           </li>
         </ul>
